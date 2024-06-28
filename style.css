@@ -367,7 +367,7 @@ footer a:hover{
   background-size: cover;
   background-position: top 25% right 0;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -450,7 +450,43 @@ outline: none;
   cursor: pointer;
 }
 #product-details .single-product-details span{
-  line-style: 25px
+  line-height: 25px
+}
+#blog-banner{
+  background-image: url(img/banner/blog-banner.jpg);
+  background-size: cover;
+  background-position: top 25% right 0;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding:14px
+}
+#blog-banner h2,
+#blog-banner p{
+color: white;
+}
+#blog{
+  padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#blog .blog-image{
+  width: 100%;
+  margin-right: 40px;
+}
+#blog img{
+  width:100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-details{
+  width:100%;
 }
 @media (max-width:799px){
   #navbar{

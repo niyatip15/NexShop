@@ -5,14 +5,153 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>NexShop</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <section id="header">
+            <!-- <a href="#"><img src="img/women/font-logo.png"class="logo"></a> -->
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a class="active"  href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <a href="#" id="close">❌</a>
+                </ul>
+            </div>
+            <div class="screen">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <i id="burger-menu" class="fas fa-outdent"></i>
 
+            </div>
+        </section>
+        <section id="blog-banner">
+            <h2>Explore Our Latest Blog Posts</h2>
+            <p>Stay updated with our insights, fashion tips, and trends.</p>
+        </section>
+        <section id="blog">
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="img/blogs/first.webp" alt="blog-image">
+                </div>
+                <div class="blog-detail">
+                    <h4>How To Put Together A Cool Corporate Outfit</h4>
+                    <p>Let’s talk about outfits for work. It’s safe to say (in most cases), gone are the
+                         days of pencil skirts and blazers. Not saying these AREN’T worn anymore in the office, but I think overall work environments have changed. Actually no, I KNOW work environments have changed. I think I definitely 
+                         have an even more lax point of view since I work in the fashion industry, but overall 
+                         I’m definitely seeing the girlies re-thinking their office outfits. In 2024, 
+                         I think the “professional” standard has widened to incorporate trendier pieces that you 
+                         can now rework outside of your 9-to-5…without getting a call from HR.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="img/blogs/second.webp" alt="blog-image">
+                </div>
+                <div class="blog-detail">
+                    <h4>Hermes Oran Sandals: Are They Worth The $$$?</h4>
+                    <p>As much as I dislike dressing for summer most of the time, there are a couple of pieces that I do get excited about.
+                         The Hermes Orans are definitely one of those pieces. 
+                         I know designer purchases are tough to make, that’s why
+                          I wanted to give you this detailed review of the Hermes Oran sandals! 
+                          Designer shoes, specifically, can be tough to pull the trigger on.
+                           Speaking from my own experience, these sandals, the Gucci loafers and mules 
+                           (this post is one of my top posts of all time), and the Chanel ballet flats are ones that 
+                           I will ALWAYS recommend if you’re looking to treat yourself. 
+                           They’re definitely my splurge shoes, and ones I wear ALL. OF. THE. TIME..
+                    </p>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-image">
+                    <img src="img/blogs/third.webp" alt="blog-image">
+                </div>
+                <div class="blog-detail">
+                    <h4>3 Words To Describe Your Style</h4>
+                    <p>Since I’m such an impulsive shopper, I had a hard time coming up with my words.
+                         I thought since I’m so influenced by what I see on the Internet and at work, 
+                         I couldn’t possibly come up with three words. But the more I thought about it, 
+                         the more I realized that I did have three words in mind. I just needed to think a
+                          little bit (okay, a lot) about what I have in my closet. I have A TON of clothes in my wardrobe,
+                           and sometimes feel like I have nothing to wear. Now, I look forward to investing 
+                        in pieces that I know I’ll wear endlessly…and look forward to “shopping my closet”.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+        </section>
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="news-text">
+                <h4>Signup for Newsletters</h4>
+                <p>Get updates about our latest products and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="email address">
+                <button class="normal">Subscribe</button>
+            </div>
+        </section>
+        <footer class="section-p1">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><b>Address:</b> 1234 E-commerce Blvd,
+                    Suite 101,
+                    Virtual City, VC 54321,
+                    Digital Realm
+                </p>
+                <p><b>Contact Number:</b> 555-123-4567</p>
+                <p><b>Opening Hours:</b> 10:00a.m to 7 p.m,Monday-Friday</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+            <div class="col install-app">
+                <h4>Install App</h4>
+               <p>From App Store or Google Play</p>
+               <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+               </div>
+            </div>
+           
+        </footer>
+        <div class="copyright">
+            <p>2024, NexShop. All rights reserved.</p>
+        </div>
         <script src="script.js"></script>
     </body>
 
