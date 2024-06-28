@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NexShop</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <!-- <a href="#"><img src="img/women/font-logo.png"class="logo"></a> -->
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <a href="#" id="close">❌</a>
+                </ul>
+            </div>
+            <div class="screen">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <i id="burger-menu" class="fas fa-outdent"></i>
+
+            </div>
+        </section>
+        <section id="product-details" class="section-p1">
+            <div class="single-product-img">
+                <img src="img/products/women/bl1.webp" width="100%" id="main-img" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/women/bl2.webp" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/women/bl3.webp" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/women/bl4.webp" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="single-product-details">
+                <h6>Home/Women's Clothes</h6>
+                <h4>Fringed Knit Skirt</h4>
+                <h2>$676</h2>
+                <select>
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>X-Large</option>
+                    <option>XX-Large</option>
+                </select>
+                <input type="number" name="" id="" value="1">
+                <button><strong>Add to Cart</strong></button>
+                <h4>Product Description</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus doloremque laudantium et totam temporibus in odit? Ducimus, eligendi nihil. Laboriosam quaerat fugiat dolores ullam aut pariatur obcaecati porro fugit hic.
+                Debitis aperiam ipsum ipsam id possimus, consectetur ullam? Tempore deserunt quasi illo, sequi sint ea natus cumque ipsa architecto ut, nesciunt nisi possimus unde eius, voluptates quaerat nihil odio reprehenderit.
+                Quis temporibus explicabo odio totam dignissimos eius facere ullam consectetur delectus quaerat sunt soluta, doloremque, reprehenderit dicta quae asperiores libero placeat animi excepturi vero velit quo ad ipsam. Dolore, soluta!
+                Fuga blanditiis ducimus quae saepe doloribus aut atque eos nihil. Eligendi ratione porro autem rerum consectetur laudantium, illo tempore doloremque quisquam accusantium! Esse corporis pariatur blanditiis commodi, mollitia expedita! Incidunt.
+                </span>
+            </div>
+        </section>
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="news-text">
+                <h4>Signup for Newsletters</h4>
+                <p>Get updates about our latest products and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="email address">
+                <button class="normal">Subscribe</button>
+            </div>
+        </section>
+        <footer class="section-p1">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><b>Address:</b> 1234 E-commerce Blvd,
+                    Suite 101,
+                    Virtual City, VC 54321,
+                    Digital Realm
+                </p>
+                <p><b>Contact Number:</b> 555-123-4567</p>
+                <p><b>Opening Hours:</b> 10:00a.m to 7 p.m,Monday-Friday</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+            <div class="col install-app">
+                <h4>Install App</h4>
+               <p>From App Store or Google Play</p>
+               <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+               </div>
+            </div>
+           
+        </footer>
+        <div class="copyright">
+            <p>2024, NexShop. All rights reserved.</p>
+        </div>
+        <script>
+            var mainImage = document.getElementById('main-img')
+            var smallImage = document.getElementsByClassName('small-img')
+            smallImage[0].onclick = function(){
+                mainImage.src = smallImage[0].src
+            }
+            smallImage[1].onclick = function(){
+                mainImage.src = smallImage[1].src
+            }
+            smallImage[2].onclick = function(){
+                mainImage.src = smallImage[2].src
+            }
+            smallImage[3].onclick = function(){
+                mainImage.src = smallImage[3].src
+            }
+
+        </script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
