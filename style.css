@@ -514,6 +514,102 @@ color: white;
 #blog .blog-details{
   width:100%;
 }
+#contact-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact-banner{
+  background-image: url(img/blogs/contact_us.jpg);
+  background-size: cover;
+  background-position: top 25% right 0;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding:14px
+}
+#contact-details .details{
+  width: 40%;
+}
+#contact-details .details span,
+#form-details form span{
+  font-size:12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+  font-size:26px;
+  line-height: 35px;
+  padding: 20px 0 ;
+}
+#contact-details .details h3{
+  font-size:16px;
+  padding-bottom: 15px;
+}
+#contact-details .details li{
+  list-style: none;
+  display: flex;
+  padding:10px 0;
+}
+#contact-details .details li i{
+  font-size: 14px;
+  padding-right: 22;
+}
+#contact-details .details li p{
+  margin: 0;
+  font-size: 14px;
+}
+#contact-details .map{
+ width:55%;
+ height: 400px;
+}
+#contact-details .map iframe{
+  width:100%;
+  height: 100%;
+ }
+ #form-details {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust height as needed */
+}
+
+#form-details form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form button.submit {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#form-details form button.submit:hover {
+  background-color: #45a049;
+}
 @media (max-width:799px){
   #navbar{
     display: flex;
